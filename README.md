@@ -20,3 +20,5 @@ The website should have a filter option to filter games based on the platform.
 The search bar should search the games based on the users' input
 
 Make the UI responsive
+
+This repository link - https://github.com/Harish24-S/xto10x_assignment
