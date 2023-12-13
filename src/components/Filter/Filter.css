@@ -1,0 +1,33 @@
+.filter {
+    display: inline-flex;
+    margin: 30px 0;
+    align-items: stretch;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.filter .button {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1E22;
+}
+
+.filter .button.selected {
+    color: dodgerblue;
+}
+
+.filter .button.first {
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.filter .button.last {
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

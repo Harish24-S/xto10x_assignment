@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #1C1C1C99;
+}
+
+.header .title {
+    font-size: 20px;
+}
+
+.loader,
+.error {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.loader {
+    color: dodgerblue;
+}
+
+.error {
+    color: red;
+}
+
+.main {
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 20px;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
